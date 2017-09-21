@@ -1,0 +1,7 @@
+1. 获取课程列表
+get
+/getLesson/:type/:limit/:offset
+
+2.  获取课程详情
+get
+/getLessonDetail/:detailUrl

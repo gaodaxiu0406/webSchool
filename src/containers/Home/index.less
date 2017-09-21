@@ -1,0 +1,84 @@
+.home{        
+    margin-top: .56rem;
+    margin-bottom: .53rem;
+    overflow:scroll;
+    .home-header{
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 99;
+    }
+    .content{
+        height: 100%;
+        overflow: scroll;
+        .lesson-list{
+            width: 100%;
+            height: 100%;
+            overflow: scroll;
+            ::-webkit-scrollbar{
+                width:0px
+            }
+            .lesson-item{
+                border-top: .01rem solid #D5d5d5;
+                border-bottom: .01rem solid #D5d5d5;
+                background-color: #fff;
+                margin-top: .1rem;
+                padding:.1rem 0;
+                display: flex;
+                width: 100%;
+                height: .8rem;
+                .lesson-img{
+                    flex: 4;
+                    margin-left: .1rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .lesson-text{
+                    padding-left: .1rem;
+                    margin-right: .1rem;
+                    flex: 6;
+                    position: relative;
+                    .name{
+                        font-weight: bold;
+                        font-size: .13rem;
+                    }
+                    .from{
+                        margin-top: .1rem;
+                        font-size: .1rem;
+                    }
+                    .tag{
+                        font-size: .12rem;
+                        color: #D5d5d5;
+                        margin-top: .1rem;
+                        width: 90%;
+                        position: absolute;
+                        bottom: 0;
+                        left: .1rem;
+                        i{
+                            font-size: .12rem;
+                            margin-right: 5px;
+                        }
+                        .joinedNumber{
+                            color: orangered;
+                            display: inline-block;
+                        }
+                        .progress{        
+                            float: right;
+                        }
+                    }
+                }
+            }
+        a{
+            color: #000;
+        }
+        }
+        .tips{
+            height: .3rem;
+            width: 100%;
+            text-align: center;
+            line-height: .3rem;
+        }
+    }
+    
+}

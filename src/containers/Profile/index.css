@@ -1,0 +1,63 @@
+.profile {
+  width: 100%;
+}
+.profile .profile-bg {
+  background: url('../../common/img/login_bg.png');
+  height: 2.23rem;
+  border-top: 1px solid transparent;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile .profile-bg img {
+  width: .6rem;
+  height: .6rem;
+  margin-top: .6rem;
+}
+.profile .profile-bg .btn_login {
+  margin-top: .15rem;
+  width: .65rem;
+  height: .25rem;
+  line-height: .25rem;
+  color: #188AE4;
+  background: #fff;
+  text-align: center;
+  border-radius: .12rem;
+  font-size: .14rem;
+}
+.profile .profile-list {
+  margin-top: .1rem;
+  margin-bottom: .1rem;
+  background-color: #fff;
+  padding: 0 .25rem;
+}
+.profile .profile-list .profile-item {
+  width: 100%;
+  height: .6rem;
+  border-bottom: .01rem solid #EDEDED;
+  line-height: .6rem;
+}
+.profile .profile-list .profile-item:last-child {
+  border-bottom: none;
+}
+.profile .profile-list .profile-item i {
+  color: #AFAEAE;
+}
+.profile .profile-list .profile-item .right-icon {
+  float: right;
+}
+.profile .profile-list .profile-item .left-icon {
+  margin-right: .2rem;
+}
+.profile .btn_logout {
+  margin: 0 .1rem;
+  height: .4rem;
+  line-height: .4rem;
+  border-radius: .05rem;
+  text-align: center;
+  color: #fff;
+  background-color: #188AE4;
+  font-size: .16rem;
+  margin-bottom: .66rem;
+}

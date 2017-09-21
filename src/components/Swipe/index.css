@@ -1,0 +1,29 @@
+.swipe {
+  position: relative;
+}
+.swipe .swipe-item {
+  width: 100%;
+  height: 1.4rem;
+}
+.swipe img {
+  width: 100%;
+}
+.swipe .dots {
+  position: absolute;
+  bottom: .1rem;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.swipe .dots span {
+  display: inline-block;
+  width: .06rem;
+  height: .06rem;
+  border-radius: 50%;
+  margin-right: .12rem;
+  background-color: #fff;
+}
+.swipe .dots .active {
+  background-color: red;
+}

@@ -1,0 +1,54 @@
+.home-header{
+    width: 100%;
+    height: .56rem;
+    background-color: #000;
+    img{
+        height: .24rem;
+        margin: .16rem .1rem;
+    }
+    .home-menu{
+        float: right;
+        margin-right: .2rem;; 
+        height: 100%;
+        line-height: .56rem;     
+        color: #fff;
+        i{
+            font-size: .16rem;
+        }
+    }
+    .menu-list{
+        background: #000;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        top: .56rem;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        li{
+            height: .3rem;
+            line-height: .3rem;
+            border-top: .01rem solid #eee;
+            &:hover{
+                color: #188AE4;
+            }         
+        }
+        .choosed{
+            color: #188AE4;
+        }
+    }
+}
+.fadeIn-enter {
+   opacity: 0.01;
+ }
+.fadeIn-enter.fadeIn-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.fadeIn-exit {
+  opacity: 1;
+}
+.fadeIn-exit.fadeIn-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

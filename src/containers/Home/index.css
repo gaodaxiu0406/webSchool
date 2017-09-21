@@ -1,0 +1,83 @@
+.home {
+  margin-top: .56rem;
+  margin-bottom: .53rem;
+  overflow: scroll;
+}
+.home .home-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+.home .content {
+  height: 100%;
+  overflow: scroll;
+}
+.home .content .lesson-list {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+.home .content .lesson-list ::-webkit-scrollbar {
+  width: 0px;
+}
+.home .content .lesson-list .lesson-item {
+  border-top: .01rem solid #D5d5d5;
+  border-bottom: .01rem solid #D5d5d5;
+  background-color: #fff;
+  margin-top: .1rem;
+  padding: .1rem 0;
+  display: flex;
+  width: 100%;
+  height: .8rem;
+}
+.home .content .lesson-list .lesson-item .lesson-img {
+  flex: 4;
+  margin-left: .1rem;
+}
+.home .content .lesson-list .lesson-item .lesson-img img {
+  width: 100%;
+}
+.home .content .lesson-list .lesson-item .lesson-text {
+  padding-left: .1rem;
+  margin-right: .1rem;
+  flex: 6;
+  position: relative;
+}
+.home .content .lesson-list .lesson-item .lesson-text .name {
+  font-weight: bold;
+  font-size: .13rem;
+}
+.home .content .lesson-list .lesson-item .lesson-text .from {
+  margin-top: .1rem;
+  font-size: .1rem;
+}
+.home .content .lesson-list .lesson-item .lesson-text .tag {
+  font-size: .12rem;
+  color: #D5d5d5;
+  margin-top: .1rem;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  left: .1rem;
+}
+.home .content .lesson-list .lesson-item .lesson-text .tag i {
+  font-size: .12rem;
+  margin-right: 5px;
+}
+.home .content .lesson-list .lesson-item .lesson-text .tag .joinedNumber {
+  color: orangered;
+  display: inline-block;
+}
+.home .content .lesson-list .lesson-item .lesson-text .tag .progress {
+  float: right;
+}
+.home .content .lesson-list a {
+  color: #000;
+}
+.home .content .tips {
+  height: .3rem;
+  width: 100%;
+  text-align: center;
+  line-height: .3rem;
+}

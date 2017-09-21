@@ -1,0 +1,80 @@
+.reg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #fff;
+}
+.reg .profile {
+  height: .62rem;
+  width: 100%;
+  margin-top: .47rem;
+  margin-bottom: .59rem;
+  line-height: .62rem;
+  text-align: center;
+}
+.reg .profile img {
+  display: inline;
+  width: .62rem;
+  height: 100%;
+}
+.reg .reg_form {
+  padding: .2rem;
+}
+.reg .reg_form input {
+  width: 100%;
+  height: .4rem;
+  line-height: .4rem;
+  border-radius: .05rem;
+  border: 1px solid #F3F3F3;
+  font-family: "微软雅黑";
+  text-indent: .1rem;
+}
+.reg .reg_form #agreement {
+  display: none;
+}
+.reg .reg_form #agreement + label {
+  margin-left: 0;
+  margin-top: .2rem;
+  margin-bottom: .25rem;
+  background-color: white;
+  border: .02rem solid #188AE4;
+  width: .12rem;
+  height: .12rem;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: .12rem;
+}
+.reg .reg_form #agreement:checked + label:after {
+  content: "\2714";
+  font-family: "微软雅黑";
+  color: #188AE4;
+}
+.reg .reg_form label {
+  color: #188AE4;
+  margin-left: .09rem;
+  font-size: .14rem;
+}
+.reg .reg_form .password {
+  margin-top: .2rem;
+}
+.reg .reg_form .btn_reg {
+  width: 100%;
+  height: .4rem;
+  line-height: .4rem;
+  border-radius: .05rem;
+  text-align: center;
+  color: #fff;
+  background-color: #188AE4;
+  font-size: .16rem;
+}
+.reg .reg_form .tips {
+  height: .6rem;
+  line-height: .6rem;
+  text-align: center;
+  color: lightcoral;
+  font-size: .14rem;
+}
