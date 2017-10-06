@@ -5,3 +5,9 @@
 npm install
 npm run dev
 ```
+
+## 技术栈
+- react全家桶
+- mongodb
+- express
+- fetch
